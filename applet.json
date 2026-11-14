@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-kernel-tunables",
+  "name": "Kernel Tunables",
+  "version": "0.0.6",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/kernel-tunables",
+  "order": 43,
+  "entrypoint": "kernel_tunables/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Graphical read-only browser for the Linux /proc/sys runtime parameter namespace with safety-aware acquisition, search/grouping, concise semantics, persistent-config evidence and specialist-inspector context.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
